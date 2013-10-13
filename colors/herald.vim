@@ -373,6 +373,8 @@ hi! default link bbcodeItalic htmlItalic
 hi! default link bbcodeItalicUnderline htmlUnderlineItalic
 hi! default link bbcodeUnderline htmlUnderline
 
+hi! BlingHilight ctermbg=red guibg=red
+
 " Spellcheck formatting
 if has("spell")
 	hi SpellBad   guisp=#FC4234 gui=undercurl
